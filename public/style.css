@@ -2,16 +2,16 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-table, th, td {
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 25px;
+    min-width: 350px;
+}
+
+th, td {
     border: 1px solid;
     border-collapse: collapse;
     text-align: center;
-    table-layout: auto;
-}
-
-.styled-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
